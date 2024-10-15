@@ -4,6 +4,17 @@ body {
 
 .clock {
     background-color: #FF7400;
-    padding: 24px 24px;
-    justify-content: center
+    color: white;
 ;}
+
+.clock, h3 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.progress-bar {
+    background-color: #FF7400;
+}
