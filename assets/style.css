@@ -1,3 +1,9 @@
 body {
     background-color: #FFFDF2;
 }
+
+.clock {
+    background-color: #FF7400;
+    padding: 24px 24px;
+    justify-content: center
+;}
