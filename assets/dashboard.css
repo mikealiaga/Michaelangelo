@@ -1,0 +1,69 @@
+:root {
+    --orange: #FF7400;
+    --easyText: #198754;
+    --easyBg: #D1E7DD;
+    --mediumText: #0D6EFD;
+    --mediumBg: #E7F1FF;
+    --hardText: #FD9843;
+    --hardBg: #FFE5D0;
+}
+
+body {
+    background-color: #FFFDF2;
+}
+
+.clock {
+    background-color: var(--orange);
+    color: white;
+;}
+
+.clock, h3 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.progress-bar {
+    background-color: var(--orange);
+}
+
+.badge {
+    font-size: 16px;
+}
+
+.btn {
+    background-color: var(--orange);
+    border: none;
+}
+
+.btn:hover {
+    background-color: #b95a0d;
+}
+
+.btn:first-child:active {
+    background-color: var(--orange);
+}
+
+.easybadge {
+    background-color: var(--easyBg);
+    color: var(--easyText);
+}
+
+.mediumbadge {
+    background-color: var(--mediumBg);
+    color: var(--mediumText);
+}
+
+.hardbadge {
+    background-color: var(--hardBg);
+    color: var(--hardText);
+}
+
+.card:hover {
+    transform: scale(103%);
+    cursor: pointer;
+    box-shadow: 10px 5px 5px black;
+    transition-duration: 400ms;
+}
