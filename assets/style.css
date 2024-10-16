@@ -1,5 +1,6 @@
 body {
     background-color: #FFFDF2;
+    height: 110%;
 }
 
 .clock {
@@ -17,4 +18,8 @@ h2 {
 
 .progress-bar {
     background-color: #FF7400;
+}
+
+.sidebar {
+    background-color: rgb(255, 116, 0, .1);
 }
