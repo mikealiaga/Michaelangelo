@@ -1,6 +1,6 @@
 
 // When clicked on the last, check all steps
-function checkAllSteps() {
+/*function checkAllSteps() {
     const stepCheckboxes = document.querySelectorAll('.steps-section input[type="checkbox"]');
     const lastStep = stepCheckboxes[stepCheckboxes.length - 1]; // Get the last checkbox
 
@@ -33,3 +33,4 @@ function updateProgress() {
     //checkAllSteps();
 
 }
+*/
