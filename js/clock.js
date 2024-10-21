@@ -21,7 +21,7 @@ function updateTimerDisplay() {
     const minutes = Math.floor(totalSeconds / 60);
     const remainingSeconds = totalSeconds % 60;
 
-    h3.textContent = ⁠ ${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')} ⁠;
+    h3.textContent = ⁠`${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`⁠;
 }
 
 
