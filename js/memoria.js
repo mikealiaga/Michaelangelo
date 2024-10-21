@@ -44,7 +44,7 @@ function barrita() {
     var porcentaje = (progreso * 100);
     porcentaje = porcentaje / cadaInstruccion.length;
     laBarrita.setAttribute('style', `width: ${porcentaje}%`);
-    if (progress === 100) {
+    if (porcentaje === 100) {
         const completionModal = new bootstrap.Modal(document.getElementById('reg-modal'));
         completionModal.show();
     }
