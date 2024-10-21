@@ -1,3 +1,4 @@
+import 'bootstrap';
 const pageEl = document.querySelector('.p-2-recipe-name').children[0].textContent;
 const setInstrucciones = document.querySelector('.list-group');
 const cadaInstruccion = document.querySelectorAll('.form-check-input3');
