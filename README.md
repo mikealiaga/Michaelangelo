@@ -11,7 +11,7 @@
 > This web application has been created using HTML, JavaScript and a number of elements from the Bootstrap library for the CSS.
 
 ## Instructions
-- Navigate to www.placeholder.com
+- Navigate to [Linguini's](https://mikealiaga.github.io/Michaelangelo/)
 Once you are on the landing page, you will see several images with different recipes.  
 
 <img src="./assets/Images Readme/Landing Page.png" width="400" alt="Landing Page">
@@ -51,9 +51,9 @@ See the [License](./LICENSE) for more info.
 
 ## Credits
 This website was created by:
-- [Mike](www.mikegithub.com)
-- [Fabián](www.mikegithub.com)   
-- [Gerardo](www.mikegithub.com)
-- [Alberto](www.mikegithub.com)
-- [Gustavo](www.mikegithub.com)
+- [Mike](https://github.com/mikealiaga)
+- [Fabián](https://github.com/FabianSaldierna)   
+- [Gerardo](https://github.com/sieke13)
+- [Alberto](https://github.com/Albert-Cifer)
+- [Gustavo](https://github.com/GusCastMorf)
 
