@@ -1,6 +1,6 @@
-import 'bootstrap';
+//import 'bootstrap';
 const pageEl = document.querySelector('.p-2-recipe-name').children[0].textContent;
-const setInstrucciones = document.querySelector('.list-group');
+const setInstrucciones = document.querySelector('.instrucciones');
 const cadaInstruccion = document.querySelectorAll('.form-check-input3');
 var progreso =0;
 const laBarrita = document.querySelector('.progress-bar');
@@ -45,10 +45,10 @@ function barrita() {
     var porcentaje = (progreso * 100);
     porcentaje = porcentaje / cadaInstruccion.length;
     laBarrita.setAttribute('style', `width: ${porcentaje}%`);
-    if (porcentaje === 100) {
+    /*if (porcentaje === 100) {
         const completionModal = new bootstrap.Modal(document.getElementById('reg-modal'));
         completionModal.show();
-    }
+    }*/
 }
     
 renderMessage();
