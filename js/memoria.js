@@ -8,16 +8,16 @@ const laBarrita = document.querySelector('.progress-bar');
 function renderMessage() {
     for (var x = 0; x < cadaInstruccion.length; x++) {
         for (var key in localStorage) {
-           var y = "setInst" + pageEl + cadaInstruccion[x].id;
-           if (key == y) {
-               const checado = JSON.parse(localStorage.getItem(key));
-               var cl = checado.instruction;
-               cadaInstruccion[x].checked = checado.estado;
-               if (checado.estado) {
-                   progreso++;
-               }
-           }
-       }   
+        var y = "setInst" + pageEl + cadaInstruccion[x].id;
+        if (key == y) {
+            const checado = JSON.parse(localStorage.getItem(key));
+            var cl = checado.instruction;
+            cadaInstruccion[x].checked = checado.estado;
+            if (checado.estado) {
+                progreso++;
+            }
+        }
+    }   
 
     }
 }
