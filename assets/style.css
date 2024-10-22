@@ -23,3 +23,15 @@ h2 {
 .sidebar {
     background-color: rgb(255, 116, 0, .1);
 }
+
+#startButton {
+    height: 64px;
+}
+
+@media screen and (max-width: 768px) {
+    .responsivo {
+         padding-left: 0rem !important;
+         margin-top: 3rem;
+        }
+    
+}
