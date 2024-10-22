@@ -8,8 +8,7 @@
 - Once you have everything you need, step-by-step instructions guide you through the recipe. The application also has a timer. This will help you calculate the exact time you need for your preparation.
 
 > [!NOTE]
-
-- This web application has been created using HTML, JavaScript and a number of elements from the Bootstrap library for the CSS.
+> This web application has been created using HTML, JavaScript and a number of elements from the Bootstrap library for the CSS.
 
 ## Instructions
 - Navigate to www.placeholder.com
@@ -27,18 +26,18 @@ Once you are on the landing page, you will see several images with different rec
 - Once inside the recipe, you will see two lists on the left of the screen. This list shows you the ingredients and tools you will need to make the recipe. Below the main image, you will see a progress bar that will increase as you click on the check boxes. Below this bar, you will see the detailed instructions to do the recipe.
 
 > [!TIP]
-- Always remember to cook with care. Wear gloves when handling hot items, wear an apron to protect your clothes, and keep the kitchen well ventilated.
+> Always remember to cook with care. Wear gloves when handling hot items, wear an apron to protect your clothes, and keep the kitchen well ventilated.
 Enjoy your meals and keep the balance between healthy and delicious!
 
 - Finally, we've got a Timer, which will help us to know the exact cooking time you need. You can set the time as described in the instructions.
 
 > [!IMPORTANT]
-- This timer is mainly intended to be used specifically for the cooking time of the dish. This timer does not take into account the time needed to prepare the food, nor the time needed after it has been cooked, if the food needs to cool down, for example.
+> This timer is mainly intended to be used specifically for the cooking time of the dish. This timer does not take into account the time needed to prepare the food, nor the time needed after it has been cooked, if the food needs to cool down, for example.
 
 - Finally, enjoy the dish you've prepared!
 
 > [!NOTE]
-- This website will continue to grow and over time we will add more features like timers, more photos, more recipes, nutritional information for each dish and the ability for our users to save their own recipes and even include them in their app. We appreciate your feedback.
+> This website will continue to grow and over time we will add more features like timers, more photos, more recipes, nutritional information for each dish and the ability for our users to save their own recipes and even include them in their app. We appreciate your feedback.
 
 - Thank you for using Linguini's!!!
 

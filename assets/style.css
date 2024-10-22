@@ -23,3 +23,7 @@ h2 {
 .sidebar {
     background-color: rgb(255, 116, 0, .1);
 }
+
+#startButton {
+    height: 64px;
+}

@@ -16,7 +16,7 @@
     </div>
 
     <div>
-        <img class="img-fluid rounded-3" src="../assets/images/aliagamike_food_--ar_21_--v_6.1_24896941-61a2-46af-a1f7-119d8a8ac0f3_0.png" alt="Comida jugosa">
+        <img class="img-fluid rounded-3" src="../assets/images/flan.jpeg" alt="Comida jugosa">
     </div>
 
     <div class="pt-3">
@@ -25,13 +25,15 @@
           </div>
     </div>
 
-    <div class="d-flex justify-content-between pt-3">
+    <div class="d-flex justify-content-between pt-3 mb-5 align-items-center">
         <div class="p-2-recipe-name"><h2>Flan Napolitano</h2></div>
-        <div class="clock p-3 rounded-3 mb-5">
-            <h3>00:00</h3>
-            <div class="timer-controls mt-2">
-              <button id="startButton" class="btn btn-primary" style="display: inline-block;">Set Timer </button>
-            </div>
+        <div class="d-flex align-items-center">
+          <div class="timer-controls">
+            <button id="startButton" class="btn btn-primary">Set Timer </button>
+          </div>
+          <div class="ms-2 clock p-3 rounded-3">
+              <h3>00:00</h3>
+          </div>
         </div>
     </div>
 
@@ -40,7 +42,7 @@
       <div class="row">
         <div class="sidebar col-12 col-md-4 p-4 rounded-4">
           <h4>Ingredients</h4>
-                  <ul class="list-group-mb-1">
+                  <ul class="list-group mb-1">
             <li class="list-group-item">
               <input class="form-check-input1" type="checkbox" name="listGroupRadio1" value="" id="firstRadio1">
               <label class="form-check-label" for="firstRadio1">3/4 sugar cup</label>
@@ -72,7 +74,7 @@
           </ul>
 
           <h4 class="mt-4">Tools Required</h4>
-                  <ul class="list-group-mb-2">
+                  <ul class="list-group mb-2">
             <li class="list-group-item">
               <input class="form-check-input2" type="checkbox" name="listGroupRadio2" value="" id="firstRadio2">
               <label class="form-check-label" for="firstRadio2">Measuring Cup</label>
@@ -102,7 +104,7 @@
 
         <div class="col-12 col-md-8 ps-4">
           <h4>Instructions</h4>
-          <ul class="list-group">
+          <ul class="list-group instrucciones">
             <li class="list-group-item">
               <input class="form-check-input3" type="checkbox" name="listGroupRadio3" value="" id="firstRadio3">
               <label class="form-check-label" for="firstRadio3">Put the condensed milk and evaporated milk on the blender</label>
@@ -140,7 +142,7 @@
               <label class="form-check-label" for="ninethRadio3">Cook for 50 minutes</label>
             </li>
             <li class="list-group-item">
-              <input class="form-check-input3" type="checkbox" name="listGroupRadio4" value="" id="tenthRadio3">
+              <input class="form-check-input3" type="checkbox" name="listGroupRadio4" value="" id="tenthRadio3" data-bs-toggle="modal" data-bs-target="#reg-modal">
               <label class="form-check-label" for="tenthRadio3">Place the mold in the fridge for 3 hours</label>
             </li>
           </ul>

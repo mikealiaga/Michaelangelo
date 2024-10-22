@@ -36,13 +36,13 @@
   </div>
 
   <div class="d-flex justify-content-between pt-3">
-    <div class="p-2-recipe-name">
-      <h2>Brownies</h2>
-    </div>
-    <div class="clock p-3 rounded-3 mb-5">
-      <h3>00:00</h3>
-      <div class="timer-controls mt-2">
-        <button id="startButton" class="btn btn-primary" style="display: inline-block;">Set Timer </button>
+    <div class="p-2-recipe-name"><h2>Brownies</h2></div>
+    <div class="d-flex align-items-center">
+      <div class="timer-controls">
+        <button id="startButton" class="btn btn-primary">Set Timer </button>
+      </div>
+      <div class="ms-2 clock p-3 rounded-3">
+          <h3>00:00</h3>
       </div>
     </div>
   </div>
@@ -52,7 +52,7 @@
     <div class="row">
       <div class="sidebar col-12 col-md-4 p-4 rounded-4">
         <h4>Ingredients</h4>
-        <ul class="list-group-mb-1">
+        <ul class="list-group mb-1">
           <li class="list-group-item">
             <input class="form-check-input1" type="checkbox" name="listGroupRadio1" value="" id="firstRadio1">
             <label class="form-check-label" for="firstRadio1">200 grams of black chocolate</label>
@@ -88,7 +88,7 @@
         </ul>
 
         <h4 class="mt-4">Tools Required</h4>
-        <ul class="list-group-mb-2">
+        <ul class="list-group mb-2">
           <li class="list-group-item">
             <input class="form-check-input2" type="checkbox" name="listGroupRadio2" value="" id="firstRadio2">
             <label class="form-check-label" for="firstRadio2">Bowl</label>
@@ -114,7 +114,7 @@
 
       <div class="col-12 col-md-8 ps-4">
         <h4>Instructions</h4>
-        <ul class="list-group">
+        <ul class="list-group instrucciones">
           <li class="list-group-item">
             <input class="form-check-input3" type="checkbox" name="listGroupRadio3" value="" id="firstRadio3">
             <label class="form-check-label" for="firstRadio3">In a bowl, put the chocolate and butter. Place it in the
@@ -140,7 +140,7 @@
               prevent the brownie from sticking.</label>
           </li>
           <li class="list-group-item">
-            <input class="form-check-input3" type="checkbox" name="listGroupRadio3" value="" id="sixthRadio3">
+            <input class="form-check-input3" type="checkbox" name="listGroupRadio3" value="" id="sixthRadio3" data-bs-toggle="modal" data-bs-target="#reg-modal">
             <label class="form-check-label" for="sixRadio3">Pour the mixture into the dish and top with some chocolate
               chips and nuts. Bake in the oven for 30-35 minutes at 180ºC (350ºF).</label>
           </li>
