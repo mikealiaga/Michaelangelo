@@ -40,3 +40,10 @@ h2 {
         }
     
 }
+
+@media screen and (max-width: 768px) {
+    .responsive {
+         margin-top: 2rem;
+        }
+    
+}
